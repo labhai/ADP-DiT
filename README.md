@@ -6,10 +6,28 @@
 
 # ADP-DiT: Text-Guided Diffusion Transformer for Brain Image Generation in Alzheimer's Disease Progression
 
+<p align="center">
+  <a href="https://arxiv.org/abs/2604.13495"><img src="https://img.shields.io/badge/arXiv-2604.13495-b31b1b.svg" alt="arXiv"></a>
+  <a href="https://arxiv.org/pdf/2604.13495"><img src="https://img.shields.io/badge/Paper-PDF-blue.svg" alt="PDF"></a>
+  <a href="https://github.com/labhai/ADP-DiT"><img src="https://img.shields.io/badge/Code-GitHub-black.svg" alt="GitHub"></a>
+</p>
+
 ## 🔥 News
 
+- **April 15, 2026**: 📄 Paper available on arXiv: [arXiv:2604.13495](https://arxiv.org/abs/2604.13495).
 - **April 15, 2026**: 🎉 Code released.
 - **April 1, 2026**: 🎉 Accepted to ICPR 2026.
+
+---
+
+## 📄 Paper
+
+**ADP-DiT: Text-Guided Diffusion Transformer for Brain Image Generation in Alzheimer's Disease Progression**
+Juneyong Lee, Geonwoo Baek, Ikbeom Jang — ICPR 2026
+
+[arXiv:2604.13495](https://arxiv.org/abs/2604.13495) · [PDF](https://arxiv.org/pdf/2604.13495) · Submitted 15 Apr 2026 · 15 pages, 3 figures · cs.CV
+
+Evaluated on 3,321 longitudinal 3T T1-weighted scans from 712 participants (259,038 image slices), ADP-DiT reaches SSIM 0.8739 and PSNR 29.32 dB and reproduces progression-related changes such as ventricular enlargement and hippocampal shrinkage.
 
 ---
 
@@ -221,9 +239,13 @@ If you find this work useful, please cite:
 
 ```bibtex
 @inproceedings{lee2026adpdit,
-  title     = {ADP-DiT: Text-Guided Diffusion Transformer for Brain Image Generation in Alzheimer's Disease Progression},
-  author    = {Lee, Juneyong and Baek, Geonwoo and Jang, Ikbeom},
-  booktitle = {Proceedings of the International Conference on Pattern Recognition (ICPR)},
-  year      = {2026},
+  title         = {ADP-DiT: Text-Guided Diffusion Transformer for Brain Image Generation in Alzheimer's Disease Progression},
+  author        = {Lee, Juneyong and Baek, Geonwoo and Jang, Ikbeom},
+  booktitle     = {Proceedings of the International Conference on Pattern Recognition (ICPR)},
+  year          = {2026},
+  eprint        = {2604.13495},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CV},
+  doi           = {10.48550/arXiv.2604.13495},
 }
 ```
